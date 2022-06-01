@@ -1,6 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
 const fs = require("fs");
-const privateKey = fs.readFileSync('.secret').toString()
+// const privateKey = fs.readFileSync('.secret').toString()
 const projectId = 'c695f583e2df43eaacd2d33ad9644143';
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
     },
     mumbai: {
       url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
-      accounts: [privateKey],
+      accounts: ["<your privateKey>"],
     },
     // ropsten: {
     //   url: "https://ropsten.infura.io/v3/c695f583e2df43eaacd2d33ad9644143",
