@@ -8,8 +8,8 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
-    polygon_mumbai: {
-      url: 'https://polygon-mumbai.g.alchemy.com/v2/plHg9aNM4D0JqA0uTGx6sZblE-Qe6vmr',
+    mumbai: {
+      url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
       accounts: [privateKey],
     },
     // ropsten: {
